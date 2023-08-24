@@ -1,13 +1,12 @@
 ---
 title: "Breakdown of semiclassical description of thermoelectricity in near-magic angle twisted bilayer graphene"
 collection: publications
-permalink: /publication/2022-03-21-Breakdown_of_semiclassical_thermoelectricity
-excerpt: 'The planar assembly of twisted bilayer graphene (tBLG) hosts multitude of interaction-driven phases when the relative rotation is close to the magic angle $(\theta_m = 1.1^{\circ})$. This includes correlation-induced ground states that reveal spontaneous symmetry breaking at low temperature, as well as possibility of non-Fermi liquid (NFL) excitations. 
-However, experimentally, manifestation of NFL effects in transport properties of twisted bilayer graphene remains ambiguous.'
+permalink: /publications/2022-03-21-Breakdown_of_semiclassical_thermoelectricity
+excerpt: "[Download paper here](http://shinjanm.github.io/files/s41467-022-29198-4.pdf){: .btn}  "
 date: 2022-03-21
 venue: 'Nature Communications'
-paperurl: "https://www.nature.com/articles/s41467-022-29198-4"
-citation: 'Ghawri, B., Mahapatra, P.S., Garg, M. et al. &quot;Breakdown of semiclassical description of thermoelectricity in near-magic angle twisted bilayer graphene&quot; <i>Nat Commun</i>. Nat Commun 13, 1522 (2022).'
+paperurl: "https://doi.org/10.1038/s41467-022-29198-4"
+citation: "Ghawri, B., Mahapatra, P.S., Garg, M. et al. Breakdown of semiclassical description of thermoelectricity in near-magic angle twisted bilayer graphene. Nat Commun 13, 1522 (2022)"
 ---
 
 
@@ -18,4 +17,4 @@ We observe an emergent violation of the semiclassical Mott relation in the form 
 Closer to $\theta_m$, the excess $S$ was also observed for fractional band filling $(\nu \simeq 0.5)$. The combination of non-trivial electrical transport and violation of Mott relation provides compelling evidence of NFL physics intrinsic to tBLG.
 
 
-[Download paper here](http://shinjanm.github.io/files/s41467-022-29198-4.pdf)
+[Download paper here](http://shinjanm.github.io/files/s41467-022-29198-4.pdf){: .btn}
