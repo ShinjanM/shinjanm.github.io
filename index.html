@@ -12,6 +12,25 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/academicons-1.9.4/css/academicons.min.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css">
+		<style>
+			body {
+  				font-family: "Computer Modern Serif", sans-serif;
+			}
+			ol {
+    				counter-reset: list;
+			}
+			ol > li {
+			    list-style: none;
+			    position: relative;
+			}
+			ol > li:before {
+			    counter-increment: list;
+			    content: "[" counter(list) "] ";
+			    position: absolute;
+			    left: -1.4em;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -50,19 +69,17 @@
 								<p>
 									My research focuses on understanding phonons and electron-phonon interactions in 2D
 									materials. 
-								
-							
 								</p>
 								<section>
-									<div class="row">
+									<div class="row" align="justify">
 										<div class="col-4 col-6-medium col-12-small">
-										    <a href="#" class="image fit" style="text-decoration: none; color: inherit; text-align: center"><img src="images/Eg_mode_AB.png" alt="Twistronics">Phonons in moiré systems</a>
+										    <a href="#Phonons" class="image fit" style="text-decoration: none; color: inherit; text-align: center"><img src="images/Eg_mode_AB.png" alt="Twistronics">Phonons in moiré systems</a>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit" style="text-decoration: none; color: inherit; text-align: center"><img src="images/spatial_fits.png" alt="Electron-phonon">Electron-phonon in moiré</a>
+										    <a href="#" class="image fit" style="text-decoration: none; color: inherit; text-align: center"><img src="images/spatial_fits.png" alt="Electron-phonon">Electron-phonon in moiré</a>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit" style="text-decoration: none; color: inherit; text-align: center"><img src="images/Charge_plot_1.5.png" alt="AuAg">AuAg nanoparticles</a>
+										    <a href="#" class="image fit" style="text-decoration: none; color: inherit; text-align: center"><img src="images/Charge_plot_1.5.png" alt="AuAg">AuAg nanoparticles</a>
 										</div>
 									</div>
 								</section>
@@ -70,10 +87,24 @@
 
 						<!-- Research Descriptions -->
 							<article id="Phonons" class="panel">
-							    In moiré systems, first principles computations of phonons is prohibitively expensive due to the large number of atoms in the unit cell. A suitable workaround to first principles calculations have been found via the use of classical force fields, fitted against DFT calculations give accurate phononic band structures. But the currently available codes utilizing these force fields are not equipped to handle large systems. We have written a package PARPHOM for computing the phonon bands in systems with tens of thousands of atoms.
-							    <div class="row col-4 col6-medium col-12-small">
-								<img src="images/Eg_mode_AB.png" style="width:30%; height:30%; margin-left:auto">
-							    </div>
+							    <h1> Phonons in moiré systems </h1>
+							    <br> </br>
+							    <h2> PARPHOM </h2><br>
+							    	<p align="justify">
+							    	In moiré systems, first principles computations of phonons is prohibitively expensive due to the large number of atoms in the unit cell.
+							    	A suitable workaround to first principles calculations have been found by using classical force fields, fitted against DFT calculations, 
+							    	that give accurate phononic band structures. 
+							    	The currently available codes utilizing these force fields are not equipped to handle large systems. 
+							    	We have written a highly parallelized package, PARPHOM, for computing the phonon bands in moiré systems with tens of thousands of atoms. <br>
+							    	<ol>	
+							    		<li> "PARPHOM: PARallel PHOnon calculator for Moiré systems", Shinjan Mandal, Indrajit Maity, H R Krishnamurthy, Manish Jain, <a href="https://arxiv.org/abs/2410.21075"> arXiv:2410.21075 </a> </li>
+							    	</ol>
+							    	</p>
+								<br>
+							</article>
+
+							<article id="Electron-phonon" class="panel">
+							    A crucial debate in undetsnading the exotic phenomena in observed in TBG near magic angle 
 							</article>
 
 
@@ -99,7 +130,7 @@
 									<h2>Contact Me</h2>
 								</header>
 									<p>
-									<b>Email ID: </b> <a href="mailto:mshinjan@iisc.ac.in" style="text-decoration: none; color:inherit">mshinjan@iisc.ac.in</a><br><br><br>
+									<b>Email ID: </b> <a href="mailto:mshinjan@iisc.ac.in" style="text-decoration: none; color:inherit">mshinjan@iisc.ac.in</a><br><br>
 									<b>Present Address:</b> <br>
 									Department of Physics, <br>
 									Indian Institute of Science <br>
